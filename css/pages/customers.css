@@ -1,0 +1,123 @@
+
+.customers__top__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 190px;
+  row-gap: 30px;
+  margin-bottom: 50px;
+}
+.customers__top__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.customers__top__text {
+  max-width: 240px;
+  padding: 15px 33px;
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px #173a561a;
+  color: #2f281e;
+  text-align: center;
+  font-family: "Poppins500";
+  font-size: 16px;
+}
+.customers__bottom {
+  margin-top: 150px;
+}
+.customers__bottom__row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.customers__row__title {
+  color: var(--text-color);
+  font-family: "Poppins700";
+  font-size: 34px;
+}
+.customers__row__text {
+  max-width: 700px;
+  color: var(--text-color);
+  font-family: "Poppins500";
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 33px;
+}
+#team-carousel {
+  position: relative;
+}
+#team-carousel :is(.owl-prev, .owl-next) {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: all 0.5s;
+  top: 40%;
+}
+#team-carousel :is(.owl-prev, .owl-next):hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+#team-carousel .owl-prev {
+  left: -50px;
+}
+#team-carousel .owl-next {
+  right: -18px;
+}
+#team-carousel .owl-dot span {
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+#team-carousel .owl-dot.active span {
+  background: var(--primary-color);
+}
+.team-card {
+  max-width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--white);
+  border: 1px solid #ddd;
+  padding-bottom: 40px;
+  margin-right: 35px;
+}
+.team__img {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 8px 8px 0px 0px;
+}
+.team__text {
+  max-width: 235px;
+  color: var(--text-color);
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+.team__strong {
+  color: var(--text-color);
+  font-family: "Poppins700";
+  font-size: 16px;
+  line-height: 28px;
+}
+.team__title {
+  max-width: 294px;
+  color: var(--text-color);
+  font-family: "Poppins700";
+  font-size: 24px;
+  line-height: 40px;
+  padding: 0px 5px;
+}
+

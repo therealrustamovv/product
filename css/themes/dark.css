@@ -1,0 +1,81 @@
+.dark #index__body,
+.dark .header,
+.dark .nav,
+.dark .main,
+.dark .footer{
+    background: #000;
+}
+.dark div,
+.dark a,
+.dark h2,
+.dark p,
+.dark button{
+    color: var(--white);
+}
+.dark #mode__btn{
+    background-color: transparent;
+}
+.dark #navbar.navbar-shrink{
+    background-color: #000;
+    box-shadow: 0px 0px 10px 5px white;
+}
+.dark .customers__top__text{
+    background: #fff;
+    color: #000;
+    box-shadow: 0px 0px 5px 2px white;
+}
+.dark .team-card{
+    background-color: #000;
+    box-shadow: 0px 0px 10px 0px white;
+}
+.dark #team-carousel :is(.owl-prev, .owl-next){
+    box-shadow: 0px 0px 10px 0px white;
+    background-color: var(--primary-color);
+}
+.dark #team-carousel :is(.owl-prev, .owl-next):hover{
+    background-color: var(--white);
+}
+.dark #team-carousel .owl-dot span{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px white;
+}
+.dark .pricing__card{
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 10px 3px white;
+}
+.dark .pricing__card:hover{
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px 3px var(--primary-color);
+}
+.dark .pricing__card:hover *{
+    color: var(--primary-color);
+}
+.dark .pricing__card:hover .pricing__btn{
+    color: var(--white);
+    background: var(--primary-color);
+}
+.dark .resources__card{
+    background-color: #000;
+    box-shadow: 0px 0px 10px 2px var(--white);
+}
+.dark .resources__card p{
+    color: var(--white);
+}
+.dark .resources__card h2{
+    color: var(--primary-color);
+}
+.dark .resources__bottom__btn{
+    color: var(--primary-color);
+}
+.dark #backtop{
+    box-shadow: 0px 0px 10px 3px white;
+}
+.dark #navbar-responsive{
+    background-color: #000;
+}
+.dark .close{
+    color: #fff;
+}
+.dark .resources__bottom{
+    box-shadow: 0px 0px 10px 3px white;
+}

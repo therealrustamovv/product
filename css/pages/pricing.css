@@ -1,0 +1,101 @@
+.pricing__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing__card {
+  max-width: 322px;
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0px 2px 8px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 70px 32px;
+  transition: all 500ms;
+  cursor: pointer;
+}
+.pricing__card:hover{
+    background-color: var(--primary-color);
+}
+.pricing__card:hover *{
+    color: #fff;
+}
+.pricing__card:hover .pricing__btn{
+    color: var(--primary-color);
+    background: var(--white);
+}
+.pricing__title {
+  color: var(--text-color);
+  font-family: "Poppins700";
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+.pricing__text {
+  color: var(--text-color);
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.pricing__sum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.pricing__sum__title {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: "Poppins700";
+  font-size: 76px;
+  line-height: 100px;
+  letter-spacing: 0.2px;
+}
+.pricing__sum__card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.pricing__dol {
+  color: var(--primary-color);
+  font-family: "Poppins700";
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+.pricing__sum__text {
+  color: #afafaf;
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+}
+.pricing__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.pricing__text2 {
+  color: var(--text-color);
+  font-family: "Poppins500";
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+.pricing__btn {
+  margin-top: 40px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 11px 19px;
+  text-align: center;
+  font-family: 'Poppins600';
+  font-size: 18px;
+  transition: all 500ms;
+}

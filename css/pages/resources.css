@@ -1,0 +1,82 @@
+#resources {
+  margin-bottom: 150px;
+}
+.resources__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.resources__card {
+  max-width: 327px;
+  padding: 26px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  background: var(--white);
+}
+.resources__icon {
+  color: #f3cd03;
+  margin-bottom: 16px;
+}
+.resources__text {
+  color: #737373;
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-bottom: 16px;
+}
+.resources__div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.resources__img {
+  width: 50px;
+}
+.resources__exam__title {
+  color: var(--primary-color);
+  font-family: "Poppins600";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.resources__exam__text {
+  color: #252b42;
+  font-family: "Poppins500";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.resources__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 32px;
+  background: var(--primary-color);
+  max-width: 968px;
+  padding: 14px 26px 14px 51px;
+}
+.resources__bottom__title {
+  max-width: 510px;
+  color: #fff;
+  font-family: "Poppins600";
+  font-size: 32px;
+  line-height: 151.4%;
+  margin-bottom: 38px;
+}
+.resources__bottom__btn {
+  width: 150px;
+  padding: 13px 33px;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--primary-color);
+  text-align: center;
+  color: #02897a;
+  font-family: 'Poppins600';
+  font-size: 20px;
+}
+.resources__bottom__img{
+    max-width: 350px;
+}

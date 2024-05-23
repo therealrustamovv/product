@@ -1,0 +1,23 @@
+#backtop {
+  position: fixed;
+  right: 20px;
+  bottom: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 50px;
+  transition: 0.5s;
+  z-index: 100000;
+}
+#backtop .top-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#backtop.backtop-show {
+  bottom: 80px;
+}

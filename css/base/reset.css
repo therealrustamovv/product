@@ -1,0 +1,140 @@
+@import url(./fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header,
+.nav,
+.main,
+.footer{
+  overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+i{
+  cursor: pointer;
+}
+input,
+textarea {
+  outline: none;
+}
+#loading {
+  position: fixed;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+#loading.loading-none {
+  opacity: 0;
+  z-index: -1;
+}
+#navbar.navbar-shrink {
+  padding: 10px 0px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 10px 5px black;
+}
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  transition: 0.5s;
+  z-index: 10000;
+}
+#navbar-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  border: none;
+  background: transparent;
+  z-index: 9999;
+}
+.close {
+  font-size: 30px;
+  color: var(--dark);
+  transition: all 500ms;
+}
+.open {
+  display: none;
+  color: black;
+}
+.res-nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.res-nav__link {
+  color: #000;
+  font-family: "Poppins500";
+  font-size: 40px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 20px;
+  padding: 150px 0px 50px;
+  overflow: hidden;
+}
+.center__title {
+  max-width: 530px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Poppins700";
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.center__text {
+  max-width: 540px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Poppins500";
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn {
+  padding: 15px 30px;
+  background: var(--primary-color);
+  display: flex;
+  margin: auto;
+  color: var(--white);
+  border-radius: 4px;
+  font-family: 'Poppins700';
+  font-size: 16px;
+}

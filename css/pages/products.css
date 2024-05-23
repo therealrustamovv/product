@@ -1,0 +1,115 @@
+#product {
+  margin-bottom: 200px;
+}
+.product__top__box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.product__top__card {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.product__top__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  box-shadow: 0px 5px 5px 0px gray;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.blue {
+  background-color: #4d8dff;
+}
+.blueviolet {
+  background-color: #740a76;
+}
+.red {
+  background-color: #f03e3d;
+}
+.product__top__title {
+  color: var(--text-color);
+  font-family: "Poppins600";
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.product__top__text {
+  max-width: 240px;
+  color: #22343d;
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 26px;
+}
+.product__bottom {
+  margin-top: 260px;
+}
+.product__bottom__box {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 150px;
+}
+.product__h3 {
+  color: var(--text-color);
+  font-family: "Poppins600";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.product__bottom__title {
+  color: var(--text-color);
+  font-family: "Poppins700";
+  font-size: 32px;
+  margin-bottom: 23px;
+}
+.product__bottom__text {
+  max-width: 486px;
+  color: var(--text-color);
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.product__bottom__div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.product__bottom__exam {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.product__bottom__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 14px;
+  background: #ff9900;
+  color: var(--white);
+}
+.red {
+  background: #f03e3d;
+}
+.blue {
+  background: #4d8dff;
+}
+.exam__text {
+  max-width: 365px;
+  color: var(--text-color);
+  font-family: "Poppins400";
+  font-size: 16px;
+  line-height: 26px;
+}
